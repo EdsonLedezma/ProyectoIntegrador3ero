@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Tu estilo personalizado */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            width: 100%;
+            background-color:#00539C;
+        }
+        
+        .navbar-inverse .navbar-nav>li>a {
+            color: #ffffff;
+        }
+        
+        .navbar-inverse .navbar-nav>.navbar-right>li>a {
+            color: #ffffff;
+        }
+        
+        .custom-menu-item {
+            background-color: #00539C;
+            color: #ffffff;
+            border-radius: 4px; 
+            padding: 5px 15px; 
+        }
+        
+        .custom-menu-item:hover {
+            background-color: #003366;
+        }
+        
+        .card-img-top {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        body {
+            background-color: #6CB4EE; 
+        }
+        
+        h2 {
+            font-family: 'Lato', sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: 48px;
+        }
+        
+        /* Nuevos estilos */
+        .service-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        .service-card img {
+            max-width: 30%;
+            height: auto;
+        }
+        
+        .service-info {
+            flex: 1;
+            padding: 0 20px;
+            text-align: left;
+        }
+        
+        .service-info h5 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tu barra de navegación -->
+    <!-- ... -->
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Select your type of vehicle.</h2>
+        
+        <!-- Nuevo diseño de tarjetas -->
+        <div class="service-card">
+            <img src="march.png" alt="Compact" class="card-img-top">
+            <div class="service-info">
+                <h5>Compact</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <input type="checkbox" id="compactCheckbox">
+                    <label for="compactCheckbox">Select</label>
+                </p>
+            </div>
+        </div>
+        
+        <div class="service-card">
+            <img src="sedan.png" alt="Sedán" class="card-img-top">
+            <div class="service-info">
+                <h5>Sedan</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <input type="checkbox" id="sedanCheckbox">
+                    <label for="sedanCheckbox">Select</label>
+                </p>
+            </div>
+        </div>
+        
+        <div class="service-card">
+            <img src="silverado.png" alt="Pickup" class="card-img-top">
+            <div class="service-info">
+                <h5>Pick Up</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <input type="checkbox" id="pickupCheckbox">
+                    <label for="pickupCheckbox">Select</label>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
