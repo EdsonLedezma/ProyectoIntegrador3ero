@@ -85,10 +85,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="custom-menu-item"><a href="index.html">Home</a></li>
-        <li class="custom-menu-item"><a href="servicios/index.html">Services</a></li>
+        <li class="custom-menu-item"><a href="indexenglish.php">Home</a></li>
+        <li class="custom-menu-item"><a href="serviciosenglish.php">Services</a></li>
         <li class="custom-menu-item"><a href="servicios/tipos.html">Quotes</a></li>
-        <li class="custom-menu-item"><a href="Menu.html">Our Works</a></li>
+     
         <li class="custom-menu-item"><a href="index.php">Language Spanish</a></li>
         
       </ul>
@@ -190,9 +190,9 @@
   </div>
 </div><br>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
+<?php
+ include "footer.php";
+ ?>
 
 </body>
 </html>

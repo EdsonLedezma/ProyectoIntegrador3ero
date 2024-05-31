@@ -82,8 +82,8 @@ $result = mysqli_query($conexion, $query);
       <ul class="nav navbar-nav">
         <li class="custom-menu-item"><a href="indexenglish.php">Home</a></li>
         <li class="custom-menu-item"><a href="serviciosenglish.php">Services</a></li>
-        <li class="custom-menu-item"><a href="tipos.php">Quotes</a></li>
-        <li class="custom-menu-item"><a href="servicios.php">Switch to English</a></li>
+        <li class="custom-menu-item"><a href="servicios/tipos.html">Quotes</a></li>
+        <li class="custom-menu-item"><a href="servicios.php">Switch to Spanish</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/Integradora/login/loginenglish.php"><?php
@@ -126,7 +126,7 @@ $result = mysqli_query($conexion, $query);
 include "footer.php"
 ?>
 
-<!-- Subsequent HTML code ... -->
+
 
 </body>
 </html>
